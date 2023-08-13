@@ -12,6 +12,8 @@
 </p>
 
 <p align="center">
+  <img src="https://s8.uupload.ir/files/20230808_122723_yvgi.png" alt="android" width="360" height="620"/>
+  <img src="https://s8.uupload.ir/files/20230808_122733_6mx5.png" alt="android" width="360" height="620"/>
 </p>
 
 <p align="left">
