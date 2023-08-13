@@ -8,7 +8,7 @@
 
 <h3 align="center">Xiaomi Calcultor App</h3>
 <p align="center">
-  <img src="https://www.freepnglogos.com/uploads/xiaomi-png/xiaomi-logo-logos-marcas-8.png" alt="android" width="64" height="64"/>
+  <img src="https://www.freepnglogos.com/uploads/xiaomi-png/xiaomi-logo-logos-marcas-8.png" alt="android" width="86" height="64"/>
 </p>
 
 <p align="center">
