@@ -15,20 +15,21 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
-        android:scrollbars="none"
-        android:layout_marginBottom="8dp">
+        android:layout_marginBottom="8dp"
+        android:scrollbars="none">
 
         <TextView
             android:id="@+id/txt_amaliat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
-            android:textAlignment="viewEnd"
             android:layout_marginStart="24dp"
             android:layout_marginBottom="8dp"
+            android:paddingStart="8dp"
             android:paddingEnd="8dp"
-            android:singleLine="true"
             android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textAlignment="viewEnd"
             android:textColor="?attr/colorOnPrimary"
             android:textSize="@dimen/textview_text_big" />
     </HorizontalScrollView>
@@ -41,6 +42,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="8dp"
+        android:paddingStart="8dp"
         android:paddingEnd="8dp"
         android:singleLine="true"
         android:textAlignment="viewEnd"
@@ -258,14 +260,14 @@
             android:orientation="horizontal"
             android:weightSum="4">
 
-            <Button
+            <ImageButton
                 android:id="@+id/btn_pakkardan"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="?selectableItemBackground"
                 android:layoutDirection="rtl"
-                android:text=">"
+                android:src="@drawable/backspace"
                 android:textColor="?attr/colorSecondary"
                 android:textSize="@dimen/button_text_Big" />
 
@@ -296,10 +298,10 @@
                     android:id="@+id/btn_mosavi"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="2dp"
-                    android:layout_marginBottom="2dp"
                     android:layout_marginStart="16dp"
+                    android:layout_marginTop="4dp"
                     android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="4dp"
                     android:layout_weight="1"
                     android:background="@drawable/cercule"
                     android:gravity="center"
