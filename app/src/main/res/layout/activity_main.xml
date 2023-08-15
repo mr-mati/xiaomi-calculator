@@ -23,7 +23,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
-            android:layout_marginStart="24dp"
             android:layout_marginBottom="8dp"
             android:paddingStart="8dp"
             android:paddingEnd="8dp"
@@ -306,7 +305,7 @@
                     android:background="@drawable/cercule"
                     android:gravity="center"
                     android:text="="
-                    android:textColor="?attr/colorOnSecondary"
+                    android:textColor="?attr/colorSecondaryVariant"
                     android:textSize="@dimen/button_text_Big" />
             </FrameLayout>
 

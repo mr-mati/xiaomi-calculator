@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.ViewTreeObserver
 import android.widget.Toast
+import androidx.core.widget.addTextChangedListener
 import com.mati.calculator.databinding.ActivityMainBinding
 import net.objecthunter.exp4j.ExpressionBuilder
 
@@ -15,7 +16,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         onNumberClicked()
         onOperatorClicked()
-
 
     }
 
@@ -79,9 +79,9 @@ class MainActivity : AppCompatActivity() {
                 val longResult = result.toLong()
 
                 if (result == longResult.toDouble()) {
-                    binding.txtJavab.text = longResult.toString()
+                    binding.txtJavab.text = "= $longResult"
                 } else {
-                    binding.txtJavab.text = result.toString()
+                    binding.txtJavab.text = "= $result"
                 }
             } catch (e: Exception) {
                 binding.txtAmaliat.text = " "
